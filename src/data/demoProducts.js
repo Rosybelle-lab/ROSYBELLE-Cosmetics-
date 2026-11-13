@@ -1,0 +1,66 @@
+// Temporary demonstration data. Replace this module with Supabase data later.
+export const demoProducts = [
+  {
+    id: 'velvet-glow-foundation',
+    name: 'Velvet Glow Hydrating Foundation',
+    description: 'A breathable, satin-finish complexion essential.',
+    category: 'Complexion',
+    price: 185,
+  },
+  {
+    id: 'soft-focus-concealer',
+    name: 'Soft Focus Brightening Concealer',
+    description: 'Lightweight coverage for a naturally rested look.',
+    category: 'Complexion',
+    price: 118,
+  },
+  {
+    id: 'sun-kissed-blush',
+    name: 'Sun-Kissed Cream Blush',
+    description: 'A blendable, just-back-from-the-sun flush.',
+    category: 'Colour',
+    price: 92,
+  },
+  {
+    id: 'golden-hour-palette',
+    name: 'Golden Hour Eyeshadow Palette',
+    description: 'Six soft neutrals with a touch of golden shimmer.',
+    category: 'Eyes',
+    price: 164,
+  },
+  {
+    id: 'curl-lift-mascara',
+    name: 'Curl & Lift Lengthening Mascara',
+    description: 'Buildable definition for an easy everyday eye.',
+    category: 'Eyes',
+    price: 86,
+  },
+  {
+    id: 'cocoa-rose-lip-oil',
+    name: 'Cocoa Rose Nourishing Lip Oil',
+    description: 'A sheer rosy tint with a comfortable, glossy finish.',
+    category: 'Lips',
+    price: 64,
+  },
+  {
+    id: 'shea-body-butter',
+    name: 'Nourish & Bloom Shea Body Butter',
+    description: 'A rich, comforting daily moisturiser with shea.',
+    category: 'Body',
+    price: 105,
+  },
+  {
+    id: 'calm-cleanser',
+    name: 'Calm & Clear Gentle Facial Cleanser',
+    description: 'A soft, everyday cleanse that leaves skin feeling fresh.',
+    category: 'Skincare',
+    price: 129,
+  },
+  {
+    id: 'dew-drop-serum',
+    name: 'Dew Drop Hyaluronic Serum',
+    description: 'A lightweight hydration boost for a dewy-looking finish.',
+    category: 'Skincare',
+    price: 148,
+  },
+]

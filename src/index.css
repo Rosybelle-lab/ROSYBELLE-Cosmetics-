@@ -1,0 +1,77 @@
+:root {
+  font-family: 'Avenir Next', Avenir, 'Segoe UI', sans-serif;
+  color: #29231f;
+  background: #fffdfa;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --ink: #29231f;
+  --muted: #766d66;
+  --gold: #b28a51;
+  --gold-dark: #86683f;
+  --gold-light: #ddc69e;
+  --rose: #a96863;
+  --rose-dark: #804b48;
+  --cream: #f7f2eb;
+  --paper: #fffdfa;
+  --line: #e9e3dc;
+  --sans: 'Avenir Next', Avenir, 'Segoe UI', sans-serif;
+  --serif: 'Bodoni 72', Didot, 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background: #fffdfa;
+}
+
+body,
+button,
+input {
+  font-family: var(--sans);
+}
+
+button,
+input {
+  font-size: inherit;
+}
+
+button,
+a,
+input,
+label {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+.payment-option:focus-within {
+  outline: 2px solid var(--gold-dark);
+  outline-offset: 4px;
+}
+
+::selection {
+  background: #ead4ca;
+  color: var(--ink);
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
